@@ -1302,6 +1302,10 @@ Rails/HasAndBelongsToMany:
   Include:
     - app/models/**/*.rb
 
+Rails/NoDefault:
+  Include:
+    - db/migrate/*.rb
+
 Rails/NotNullColumn:
   Include:
     - db/migrate/*.rb

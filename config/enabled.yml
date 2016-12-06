@@ -1506,6 +1506,10 @@ Rails/HttpPositionalArguments:
     - 'spec/**/*'
     - 'test/**/*'
 
+Rails/NoDefault:
+  Description: 'Do not add a default value in a pre-existing table'
+  Enabled: true
+
 Rails/NotNullColumn:
   Description: 'Do not add a NOT NULL column without a default value'
   Enabled: true
